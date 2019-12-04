@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Eugene Reut, Reutsoft contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Physics · Book Three</title>
+
+    <!-- link rel="canonical" href="" -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="../common/bootstrap.min.css" rel="stylesheet">
+    <link href="../common/blog.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+
+  <body>
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+	     <div class="col-3 pt-4"><h6><a class="ml-2 font-italic text-muted" href="../chapter1/book3-1.html">High School Curriculum</a></h6></div>
+	      <div class="col-6 text-center">
+        	 <a class="blog-header-logo text-dark" href="../chapter1/book3-1.html">Physics · Book Three</a>
+	      </div>
+	     <div class="col-3"> </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1">
+    <nav class="nav d-flex justify-content-start">
+      <a class="p-2 text-info" href="../chapter1/book3-1.html">Thermodynamics. Molecular Physics</a>
+      <a class="p-2 text-muted" href="../chapter8/book3-61.html">Fundamentals of Electrodynamics</a>
+    </nav>
+  </div>
+
+  <div class="nav-second-base py-1 mb-2">
+    <nav class="nav d-flex justify-content-start">
+      <a class="p-2 text-muted" href="../chapter1/book3-1.html">Heat phenomena</a>
+      <a class="p-2 text-muted" href="../chapter2/book3-24.html">Molecular-kinetic theory</a>
+      <a class="p-2 text-info" href="../chapter3/book3-27.html">Molecular-kinetic theory of Ideal Gas</a>
+      <a class="p-2 text-muted" href="../chapter4/book3-36.html">The interaction of atoms and molecules in substance</a>
+      <a class="p-2 text-muted" href="../chapter5/book3-48.html">Surface tension in liquids</a>
+      <a class="p-2 text-muted" href="../chapter6/book3-54.html">Solid bodies and their transformation into liquids</a>
+      <a class="p-2 text-muted" href="../chapter7/book3-57.html">Thermal expansion of solid and liquid bodies</a>
+   </nav>
+  </div>
+
+</div>
+
+<main role="main" class="container mt-5">
+  <div class="row">
+    <div class="col-md-9 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">From the Molecular-kinetic theory of Ideal Gas</h3>
+
+      <div class="blog-post">
+        <h2 class="blog-post-title mb-4">28. Heat motion of gas molecules</h2>
+
+        <p>From the very beginning, we must stop trying to track the motion of all the molecules that make up the gas. There are too many of them, and because of the collisions with each other the movement of molecules is very complicated. Instead, we will make a single, but very important assumption about the general nature of this motion.</p>
+
+        <p><strong>Suppose the gas molecules move randomly.</strong> The speed of any molecule can be either very high or very low. The direction of movement of molecules changes chaotically when they collide with each other.</p>
+
+        <p>However, even though the movement of individual molecules is chaotic, the behavior of all molecules as a whole reveals on average some simple trends. Firstly, if any direction \(x\) is randomly identified in gas, then the average number of molecules moving in this direction should be equal to the average number of molecules moving in the opposite direction. After all, the chaos in the movement of molecules means that none of the directions of motion is dominant. They are all equal.</p>
+
+        <p>Similarly, the average number of people walking along a city street in one direction and another, for a fairly long period of time on average is equal. Of course, if we exclude special cases such as holiday demonstrations.</p>
+
+        <p>Second, simple laws are valid for the average arithmetic speed of molecules. Let there be \(N\) molecules. Projections of the velocities of these molecules in the x direction can take all sorts of values: \(\upsilon_{x_1}, \upsilon_{x_2}, \upsilon_{x_3}, ..., \upsilon_{x_i}, ..., \upsilon_{x_N}\). And each projection can be either positive or negative. The average arithmetic value of the velocity projection is \(\vec{\upsilon_x}\), by this direction \(x\) is equal to the sum of the velocity projections of all molecules divided by their number</p>
+
+        <p><h4 class="text-center">\( \overline{\upsilon_x} {~=~} \frac{\upsilon_{x_1}{~+~}\upsilon_{x_2}{~+~}\upsilon_{x_3}{~+~}...{~+~}\upsilon_{x_i}{~+~}...{~+~}\upsilon_{x_N}}{N} \) <span class="float-right">(3-1)</span></h4></p>
+
+        <p>Similarly, it is possible to determine the average value of any value taking on different values, for example, the average height of a student in a class.
+Because of the chaos in the movement of molecules, positive values of velocity projections should occur as often as negative values. Therefore, the average value of the velocity projection in any direction \(x\) is zero</p>
+
+        <p><h5 class="text-center">\( \overline{\upsilon_x} {~=~} 0 \) <span class="float-right">(3-2)</span></h5></p>
+
+        <p>But the average square of the velocity projection (we will see soon that this value is important), of course, is not equal to zero, because all the elements of the sum are positive</p>
+
+        <p><h4 class="text-center">\( \overline\upsilon{^2_x} {~=~} \frac{\upsilon{^2_{x_1}} {~+~} \upsilon{^2_{x_2}} {~+~} \upsilon{^2_{x_3}} {~+~} ... {~+~} \upsilon{^2_{x_i}} {~+~} ... {~+~} \upsilon{^2_{x_N}}}{N} \) <span class="float-right">(3-3)</span></h4></p>
+
+        <p>Due to the fact that the direction of \(x\) does not differ from the directions \(y\) and \(z\) (again, because of the chaos in the movement of molecules), the equations are fair</p>
+
+        <p><h5 class="text-center">\(\overline\upsilon{^2_x} {~=~} \overline\upsilon{^2_y} {~=~} \overline\upsilon{^2_z}\) <span class="float-right">(3-4)</span></h5></p>
+
+        <p>For each molecule, the square speed is equal: \(\upsilon{^2_i} {~=~} \upsilon{^2_{x_i}} {~+~} \upsilon{^2_{y_i}} {~+~} \upsilon{^2_{z_i}}\). The value of the average square of velocity, determined in the same way as the average square of the velocity projection ( equation 3-3), is equal to the sum of the average squares of its projections</p>
+
+        <p><h5 class="text-center">\(\overline\upsilon^2 {~=~} \overline\upsilon{^2_x} {~+~} \overline\upsilon{^2_y} {~+~} \overline\upsilon{^2_z}\)<span class="float-right">(3-5)</span></h5></p>
+
+        <p>From equations \((3-4)\) and \((3-5)\) it follows that</p>
+
+        <p><h5 class="text-center">\(\overline\upsilon{^2_x} {~=~} \overline\upsilon{^2_y} {~=~} \overline\upsilon{^2_z} {~=~} \frac{1}{3}\overline\upsilon^2 \)<span class="float-right">(3-6)</span></h5></p>
+
+        <p><em>The assumption made by us about the chaotic character of gas molecules motion,</em> from which equations (3-2) and (3-4) follow, <em>is performed better than more collisions between molecules.</em></p>
+
+      </div><!-- /.blog-post -->
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-3 blog-sidebar">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h5>Chapter III</h5>
+	<p class="mb-2"><a href="../chapter3/book3-27.html" class="text-muted">27. Ideal gas in molecular-kinetic theory</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-28.html" class="text-info">28. Heat motion of gas molecules</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-29.html" class="text-muted">29. Basic equation of molecular-kinetic gas theory</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-30.html" class="text-muted">30. Temperature - a measure of the average kinetic energy of the chaotic motion of molecules</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-31.html" class="text-muted">31. Boltzmann's constant</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-32.html" class="text-muted">32. Absolute zero temperature</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-33.html" class="text-muted">33. Gas molecule velocity measurement</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-34.html" class="text-muted">34. Internal energy of a single atomic gas. Adiabatic process in gas</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-35.html" class="text-muted">35. Brownian motion</a></p>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+<footer class="blog-footer">
+  <p>
+    <a class="text-muted" href="mailto:eugene.reut@gmail.com">E. Reut</a> · Physics Books · <a href="../../book1/chapter1/book1-1.html" class="text-muted">One</a>, <a href="../../book2/chapter1/book2-1.html" class="text-muted">Two</a>, <a href="../chapter1/book3-1.html" class="text-muted">Three</a> & <a href="../../book4/chapter1/book4-1.html" class="text-muted">Four</a>
+  </p>
+  <p>
+    <a href="#" class="text-muted small">Back to top</a>
+  </p>
+</footer>
+</body>
+</html>
