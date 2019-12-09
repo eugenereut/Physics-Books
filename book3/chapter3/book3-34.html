@@ -59,33 +59,31 @@
       <h3 class="pb-4 mb-4 font-italic border-bottom">From the Molecular-kinetic theory of Ideal Gas</h3>
 
       <div class="blog-post">
-        <h2 class="blog-post-title mb-4">31. Boltzmann constant</h2>
+        <h2 class="blog-post-title mb-4">34. Internal energy of a single atomic gas. Adiabatic process in gas</h2>
 
-        <p>The equation \((3-11)\) includes the ratio of the universal gas constant \(R\) to the Avogadro number \(N_A\). This relation is identical for all substances and is named <em>Boltzmann constant</em> in honor of Austrian scientist Ludwig Boltzmann, one of founders of the molecular-kinetic theory.</p>
+        <p>The easiest ideal gas in terms of its properties, consisting not of molecules, but of single atoms. Such a gas is called a monatomic or single atomic. This term implies that the "molecule" of gas consists of one atom. Helium, neon, argon are monatomic inert gases.</p>
 
-        <p>Boltzmann constant is equal to</p>
+        <p>Ideal gas molecules do not interact with each other, except in cases of direct collision. Therefore, their average potential energy of interaction is very small and all internal energy represents the kinetic energy of chaotic movement of molecules.<br>Since the average kinetic energy of a molecule at translational motion is determined by equation (3-12), the average kinetic energy for one mole is equal to</p>
 
-        <p><h5 class="text-center">\( k ~= ~\frac{R}{N_A} ~= ~1.38 \times 10^{-23} ~J/K \)</h5></p>
+        <p><h5 class="text-center">\(U ~= ~N_A\frac{3}{2}kT ~= ~\frac{3}{2}RT \)<span class="float-right">(3-14)</span></h5>This equation defines the internal energy of an ideal single atomic gas.</p>
 
-        <p>Equation \((3-11)\) can now be written in this way</p>
+        <p>When writing down the equation (3-14), it was assumed that the container of gas rested, i.e. the velocity of the center of gravity of the gas is equal to zero. Therefore, the internal energy is the average kinetic energy of molecules movement relative to the center of gravity. This was already mentioned in <a href="../chapter1/book3-16.html" class="text-muted">\(\S16\)</a>. If the center of gravity of the gas moves at the speed of \(~\upsilon_0\), the total energy of one mole of gas is equal to the sum of mechanical (kinetic) energy \(~\frac{\mu\upsilon{^2_0}}{2}\) and internal energy \(U\)</p>
 
-        <p><h5 class="text-center">\(\overline{E} ~= ~\frac{3}{2}kT \)<span class="float-right">(3-12)</span></h5></p>
+        <p><h5 class="text-center">\(\overline{E} ~= ~\frac{\mu\upsilon{^2_0}}{2} + \frac{3}{2}RT \)</h5></p>
 
-        <p>Inserting \((3-12)\) in \((3-8)\), we find the equation for gas pressure through the concentration of molecules and temperature</p>
+        <p>The internal energy of an ideal gas consisting of more complex molecules is also proportional to the absolute temperature. But the proportionality coefficient between \(U\) and \(T\) is different.</p>
 
-        <p><h5 class="text-center">\( p {~=~} nkT \)</h5></p>
+        <p>Now let's discuss the difference between isothermal and adiabatic processes.</p>
 
-        <p>From this, in particular, it follows that at the same pressures and temperatures the concentration of molecules is the same for all gases.<br>At \({~}p {~=~} 1 {~atm~}\) and \({~}T {~=~} 273^0K {~}(0^0C)\), \({~}n {~=~} 2.69 \times 10^{25} {~m^3~} (per{~}cubic{~}metre)\). This number is called the <em>Loschmidt constant</em> or Loschmidt's number.</p>
+        <p>We will use two cylinders filled with gas. In the initial position \(1\) the volumes and temperatures of gas in the cylinders are the same. Then the gas expands. In the first cylinder, expansion occurs at a constant temperature - isothermally. The second cylinder is thermally insulated, so it has an adiabatic process.<br>In the isothermal process, the temperature and therefore the internal energy do not change. The pressure at expansion decreases by the law of Boyle-Mariotte (Fig. 1).</p>
 
-        <p>Historically, temperature was introduced for the first time as a thermodynamic value and the unit of measurement was set to a degree (see <a href="../chapter1/book3-3.html" class="text-muted">\(\S3\)</a>). After establishing the relationship between temperature and the average kinetic energy of molecules, it became clear that temperature can be defined as the average kinetic energy of molecules and measured in joules, i.e. instead of the value of \(T\), enter the value of \(T^{\star}\) so that</p>
+        <div class="mx-auto d-block mt-4 mb-4 text-center">
+      		<img src="../common/img/book3-pic17.png" class="img-fluid" alt="...">
+      	</div>
 
-        <p><h5 class="text-center">\(T^{\star} {~=~} \frac{m\overline\upsilon{^2}}{2} \)</h5></p>
+        <p>At expansion of gas in the thermally insulated \((\Delta{Q}=0)\) cylinder work is performed by internal energy of gas, so the internal energy is reduced. On the basis of equation (3-14) we conclude that the temperature decreases as well.</p>
 
-        <p>Defined temperature is related to the temperature measured in degrees</p>
-
-        <p><h5 class="text-center">\(T^{\star} {~=~} \frac{3}{2}kT \)</h5></p>
-
-        <p>Therefore, Boltzmann constant can be considered as a value linking temperature in energy units with temperature expressed in degrees. However, temperature measurement in degrees is still generally accepted.</p>
+        <p>Thus, with adiabatic expansion, the gas is cooled down. The pressure drops faster than with isothermal expansion (Fig. 1).<br>With adiabatic compression, work is done to increase the internal energy. Therefore, the temperature rises and the pressure rises faster than with isothermal compression (Fig. 1).</p>
 
       </div><!-- /.blog-post -->
 
@@ -98,10 +96,10 @@
   <p class="mb-2"><a href="../chapter3/book3-28.html" class="text-muted">28. Heat motion of gas molecules</a></p>
   <p class="mb-2"><a href="../chapter3/book3-29.html" class="text-muted">29. Basic equation of molecular-kinetic theory of gases</a></p>
   <p class="mb-2"><a href="../chapter3/book3-30.html" class="text-muted">30. Temperature - a measure of the average kinetic energy of the chaotic movement of molecules</a></p>
-  <p class="mb-2"><a href="../chapter3/book3-31.html" class="text-info">31. Boltzmann constant</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-31.html" class="text-muted">31. Boltzmann constant</a></p>
   <p class="mb-2"><a href="../chapter3/book3-32.html" class="text-muted">32. Absolute zero temperature</a></p>
   <p class="mb-2"><a href="../chapter3/book3-33.html" class="text-muted">33. Gas molecule velocity measurement</a></p>
-  <p class="mb-2"><a href="../chapter3/book3-34.html" class="text-muted">34. Internal energy of a single atomic gas. Adiabatic process in gas</a></p>
+  <p class="mb-2"><a href="../chapter3/book3-34.html" class="text-info">34. Internal energy of a single atomic gas. Adiabatic process in gas</a></p>
   <p class="mb-2"><a href="../chapter3/book3-35.html" class="text-muted">35. Brownian motion</a></p>
       </div>
     </aside><!-- /.blog-sidebar -->
