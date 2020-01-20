@@ -41,7 +41,7 @@
 
   <div class="nav-second-base py-1 mb-2">
     <nav class="nav d-flex justify-content-start">
-      <a class="p-2 text-muted" href="../chapter8/book3-62.html">Electrostatics</a>
+      <a class="p-2 text-info" href="../chapter8/book3-62.html">Electrostatics</a>
       <a class="p-2 text-muted" href="../chapter9/book3-87.html">Direct electric current</a>
       <a class="p-2 text-muted" href="../chapter10/book3-102.html">Electrical current in different environments</a>
       <a class="p-2 text-muted" href="../chapter11/book3-120.html">Magnetic field of currents</a>
@@ -55,24 +55,38 @@
 <main role="main" class="container mt-5">
   <div class="row">
     <div class="col-md-9 blog-main">
-      <h3 class="pb-4 mb-4 font-italic border-bottom">From the Fundamentals of Electrodynamics</h3>
+      <h3 class="pb-4 mb-4 font-italic border-bottom">From the Electrostatics</h3>
 
       <div class="blog-post">
-        <h2 class="blog-post-title mb-4">61. What is electrodynamics?</h2>
+        <h2 class="blog-post-title mb-4">70. Basic properties of the electric field. Field strength</h2>
 
-        <p>In mechanics, different types of motion of macroscopic bodies under the action of certain forces are studied, in molecular physics - the chaotic motion of atoms and molecules, which forms the basis of heat processes. The nature of forces and their origin are not studied either in mechanics or in molecular physics.</p>
+        <p><h4>Properties of the field.</h4> Our understanding of what is an electric field is the result of an experimental research of its properties. There are many of these properties, and one would think not all of them are known now.</p>
 
-        <p>In electrodynamics first of all study electromagnetic interactions of bodies, i.e. forces having electromagnetic nature.</p>
+        <p><strong>The main property of an electric field is the ability to act on electric charges with some force.</strong> In action on the charge establish the presence of the field, its distribution in space, study all its characteristics. The electrostatic field is created only by electric charges. The <em>electrostatic</em> field is the electric field of stationary charges. In electrostatics we deal only with an electrostatic field - a special case of an electric field. Further, speaking about the properties of the field, we will not call it electrostatic if this property is equally inherent in both static and variable fields.</p>
 
-        <p>Among the four types of interactions - gravitational, electromagnetic, nuclear and weak - it is electromagnetic forces that take first place in the breadth and diversity of phenomena in nature. In everyday life and technology, with some exceptions (for example, gravity to the Earth), we meet constantly only with different types of electromagnetic interactions. These are the forces of elasticity, friction, strength of our muscles.<br><small>(Weak interactions mainly determine the transformations of elementary particles.)</small></p>
+        <p><h4>The strength of the electric field.</h4> The quantitative electric field is characterized by a value called <em>the field strength.</em> Unlike the field itself, the field strength can be determined accurately and concisely.</p>
 
-        <p>Electromagnetic interactions allow you to see the book you are reading, because light is one of the forms of electromagnetic interactions. Life itself is unthinkable without these forces. Living creatures and even humans, as shown by the flights of astronauts, are able to stay in a state of weightlessness for a long time, when the forces of gravity are not shown. But if the action of electromagnetic forces stopped for a moment, life would immediately disappear.</p>
+        <p>If you place small charged bodies at the same point in the field and measure the forces acting on them, you will find that the force acting on charge \(q\) from the field is proportional to the value of the charge. <strong>The force-to-charge ratio is therefore independent from the value of the charge and can be considered as a field characteristic.</strong> It is called <em>electric field strength.</em> Like force, electric field strength is a vector. We will denote it by \(\overrightarrow{E}\).<br> By definition</p>
 
-        <p>In the interaction of particles in the most compact systems of nature - in the atomic nuclei and the interaction of cosmic bodies (by light), electromagnetic forces play an exceptional role, while nuclear, weak and gravitational interactions are essential only in either very small or cosmic scales. The structure of the atomic shell, the bonding of atoms into molecules (chemical forces) and the formation of pieces of matter are determined exclusively by electromagnetic forces. It is difficult, almost impossible to specify phenomena that would not be related to the action of electromagnetic forces.</p>
+        <p><h4 class="text-center">\( \overrightarrow{E} ~= ~\frac{\overrightarrow{F}}{q} \) <span class="float-right">(8-9)</span></h4></p><br>
 
-        <p>The creation of science - electrodynamics led to a long chain of random discoveries and systematic research, ranging from the discovery of the strange ability of amber rubbed on silk, attract lightweight objects and ending with the guessing of the great English scientist <strong>James Clerk Maxwell</strong> (1831-1879) on the generation of magnetic fields by variable electric fields. Only after the creation of electrodynamics, in the second half of XIX century, began a wide practical use of electromagnetic phenomena. The invention of radio is one of the first and most important applications of the principles of the new theory. At development of electrodynamics for the first time purely scientific researches preceded technical applications. If a steam machine was built long before the theory of heat processes, it was possible to design an electric motor or a radio receiver only after discovering and studying the laws of electrodynamics.</p>
+        <p>From here, the force acting on the charge \(q\) equals</p>
 
-        <p>Our task is to learn the basic laws of electromagnetic interactions.</p>
+        <p><h5 class="text-center">\( \overrightarrow{F} ~= ~{q}\overrightarrow{E} \)</h5></p>
+
+        <p>According to \((8-9)\) <strong>the field strength is the value measured by the ratio of the force acting from the field to some test charge.</strong><br> It is not difficult to find the field strength of a point charge \(q\). Let the charge \(q_0\) be placed at a distance \(R\) from the charge \(q\). Force will act on it in an environment with dielectric permeability \(\varepsilon\)</p>
+
+        <p><h4 class="text-center">\( F ~= ~\frac{1}{4 \pi \,\varepsilon{_0} \,\varepsilon} \,\frac{q \,q_0}{R^2}\)</h4></p>
+
+        <p>The field strength at a distance \(R\) according to the definition \((8-9)\) in SI units is equal to</p>
+
+        <p><h4 class="text-center">\( \overrightarrow{E} ~= ~\frac{\overrightarrow{F}}{q_0} ~= ~\frac{q}{4 \pi \,\varepsilon{_0} \,\varepsilon \,R^2} \) <span class="float-right">(8-10)</span></h4></p><br>
+
+        <p><h4>The principle of superposition.</h4> The electric field has another very important property. If at a given point of space different charged particles create fields \(\overrightarrow{E}_1, \,\overrightarrow{E}_2, \,\overrightarrow{E}_3\), etc., then the full field strength at this point will be, as experience shows, equal to the geometric sum of the fields of individual particles.</p>
+
+        <p><h5 class="text-center">\( \overrightarrow{E} ~= ~\overrightarrow{E}_1 \,+ \,\overrightarrow{E}_2 \,+ \,\overrightarrow{E}_3 \,+ \,...\) <span class="float-right">(8-11)</span></h5></p><br>
+
+        <p>Equality \((8-11)\) means that when the fields are overlapping, they do not affect each other. This is the meaning of the field <em>superposition principle</em> (superposition means overlapping). Thanks to the superposition principle, to find the field of a charged body system at any point, it is sufficient to know the expression \((8-10)\) that defines the field created by a single point charged body.</p>
 
       </div><!-- /.blog-post -->
 
@@ -86,10 +100,10 @@
   <p class="mb-2"><a href="../chapter8/book3-64.html" class="text-muted">64. Law of conservation electric charge</a></p>
   <p class="mb-2"><a href="../chapter8/book3-65.html" class="text-muted">65. The basic law of electrostatics. The Coulomb Law</a></p>
   <p class="mb-2"><a href="../chapter8/book3-66.html" class="text-muted">66. Units of electric charge</a></p>
-  <p class="mb-2"><a href="../chapter8/book3-67.html" class="text-muted">67. Interaction of fixed electrical charges inside a uniform dielectric</a></p>
+  <p class="mb-2"><a href="../chapter8/book3-67.html" class="text-muted">67. Interaction of stationary electric charges inside a uniform dielectric</a></p>
   <p class="mb-2"><a href="../chapter8/book3-68.html" class="text-muted">68. Proximity and action at a distance</a></p>
   <p class="mb-2"><a href="../chapter8/book3-69.html" class="text-muted">69. Electric field</a></p>
-  <p class="mb-2"><a href="../chapter8/book3-70.html" class="text-muted">70. Basic properties of the electric field. Field strength</a></p>
+  <p class="mb-2"><a href="../chapter8/book3-70.html" class="text-info">70. Basic properties of the electric field. Field strength</a></p>
   <p class="mb-2"><a href="../chapter8/book3-71.html" class="text-muted">71. Power lines of Electric field</a></p>
   <p class="mb-2"><a href="../chapter8/book3-72.html" class="text-muted">72. Conductors in the electrostatic field</a></p>
   <p class="mb-2"><a href="../chapter8/book3-73.html" class="text-muted">73. Electric field of evenly charged ball and infinite plane</a></p>
