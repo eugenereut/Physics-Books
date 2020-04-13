@@ -1,5 +1,5 @@
 /* stylelint-disable selector-list-comma-newline-after */
-body {color:#222;background-color: #f9f9f9;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+body {color:#5b4636;background-color: #efe7dd;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
     font-family:fakt,Helvetica,Arial,sans-serif;font-size:1.05rem;line-height:1.75rem}
 /*
 * this option for PDF print version
@@ -10,23 +10,20 @@ h3 { page-break-before: always; }
 @page { size: A4; }
 */
 
-.blog-header {
-  line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
-}
+.blog-header { line-height: 1; border-bottom: 1px solid #e5e5e5; }
+.blog-header-logo { font-family: "Playfair Display", Georgia, "Times New Roman", serif; font-size: 2.25rem; }
+.blog-header-logo:hover { text-decoration: none; }
 
-.blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2.25rem;
-}
+.border-bottom { border-bottom: 1px solid #dfcbb2 !important; }
 
-.blog-header-logo:hover {
-  text-decoration: none;
-}
 
-h1, h2, h3, h4, h5, h6, em {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-}
+h1, h2, h3, h4, h5, h6, em { font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
+
+h5.text-center, h4.text-center {color: #382819 !important;}
+
+.text-dark { color: #382819 !important;} 
+.text-info { color: #746050 !important; font-weight: bold;}
+.text-muted { color: #817062 !important;}
 
 .nav-scroller {
   position: relative;
@@ -107,9 +104,7 @@ h1, h2, h3, h4, h5, h6, em {
   color: #999;
 }
 
-.bg-light {
-  background-color: #d9d9d9!important;
-}
+.bg-light { background-color: #ece4d9 !important; }
 
 /*
 * Side menu
@@ -121,10 +116,10 @@ h1, h2, h3, h4, h5, h6, em {
  */
 .blog-footer {
   padding: 2.5rem 0;
-  color: #999;
+  color: #817062;
   text-align: center;
-  background-color: #f1f1f1;
-  border-top: .05rem solid #e5e5e5;
+  background-color: #ece4d9;
+  /*border-top: .05rem solid #e5e5e5;*/
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
