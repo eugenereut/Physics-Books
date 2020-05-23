@@ -58,27 +58,33 @@
       <h3 class="pb-4 mb-4 font-italic border-bottom">From the Magnetic field of currents</h3>
 
       <div class="blog-post">
-        <h2 class="blog-post-title mb-4">138. Self-induction</h2>
+        <h2 class="blog-post-title mb-4">139. Inductivity</h2>
 
-        <p>If there is an alternating current on the coil, the magnetic flux that permeates the coil changes. Therefore, an EMF induction occurs in the conductor itself, along which the alternating current flows. This phenomenon is called <em>self-induction.</em> In self-induction, the conductive circuit plays a dual role: a current flows through the conductor causing the induction, and the EMF induction appears in it. <em>A changing magnetic field induces EMF in the conductor itself along which the current flows and creates this field.</em></p>
+        <p>Let's study in detail what properties of a conductor determine the EMF self-induction that occurs in it.</p>
 
-        <p>According to the Lentz law, at the moment of current rise the strength of the vortex electric field is directed against the current. Therefore, at this point the vortex electric field prevents the current from rising. On the contrary, at the moment the current decreases, the vortex electric field supports it.</p>
+        <p>Magnetic induction \(\overrightarrow{B}\), created by a current, is proportional in all cases to the current force. As magnetic flux \(\Phi\) is proportional to \(B\), then</p>
 
-        <p>This means that when a circuit containing permanent EMF closes, a certain value of current force is set not immediately, but gradually over time (fig. 1). On the other hand, when an EMF source is switched off, the current in the circuit does not stop immediately. The resulting EMF self-induction may exceed the EMF of the source, because the change in current and its magnetic field is rapid.</p>
+        <p><h5 class="text-center">\( \Phi \,\sim \,B \,\sim \,I \)</h5></p><br>
 
-        <br>
-        <div class="mx-auto d-block mt-4 mb-4 text-center">
-        		<img src="../common/img/book3-pic127.png" class="img-fluid" alt="...">
-        </div><br>
+        <p>It can therefore be argued that</p>
 
-        <p>The phenomenon of self-induction can be observed in simple experiments. Figure 2 shows a diagram of two identical light bulbs working in parallel. One of them is directly connected to the source through resistance \(R\) and the other is connected in series with a large coil \(L\) on an iron core. The first bulb will flash almost immediately after the key is closed, and the second bulb will flash with a noticeable delay. The EMF self-induction in the circuit of this light bulb is large, and the current force does not immediately reach its maximum value.</p>
+        <p><h4 class="text-center">\( \Phi \,= \,L\,I \) <span class="float-right">(12-5)</span></h4></p><br>
 
-        <p>A circuit diagram that allows you to observe the EMF self-induction when the circuit opens is shown in Figure 3. When the key is open, an EMF self-induction is occurring in the coil to support the initial current. Therefore, at the moment the key is opened, a current (dotted arrow) flows through the galvanometer, which is directed against the initial current prior to the opening. And the force of this current exceeds the current passing through the galvanometer when the circuit is closed. This means that the \(\Large{\varepsilon}\small{_i} > \Large{\varepsilon}\) batteries.</p>
+        <p>where \(L\) is the coefficient of proportionality between the current in the conductive loop, and the magnetic flux created by it, penetrating this loop. The value of \(L\) is called the circuit <em>inductivity</em> or the <em>self-induction coefficient</em> of the circuit.</p>
 
-        <br>
-        <h4>The analogy between self-induction and inertia.</h4>
-        <p>The phenomenon of self-induction is similar to the phenomenon of inertia in mechanics. As a result of inertia, the body does not instantly acquire a certain speed under the action of force, but gradually. The body cannot slow down immediately, no matter how great the braking force is. Similarly, due to self-induction when the circuit is closed, the current force does not immediately gain a certain value, but increases gradually. When the circuit is opened, the current force does not disappear immediately. Self-induction keeps it going for a while despite the resistance of the circuit.<br>
-        Further, in order to increase the speed of the body, according to the laws of mechanics, it is necessary to perform the work. When braking, the body does the work itself. In the same way, to create current, the work against a vortex electric field should be done. When the current decreases, this field does the positive work itself.</p>
+        <p>Using the electromagnetic induction law and expression \((12-5)\), we obtain equality</p>
+
+        <p><h4 class="text-center">\( \Large{\varepsilon}\small{_i} \,= \,\frac{\Delta{\Phi}}{\Delta{t}} \,= \,L\frac{\Delta{I}}{\Delta{t}} \) <span class="float-right">(12-6)</span></h4></p>
+
+        <p>if we assume that the shape of the circuit remains unchanged and the magnetic flux changes only due to the change in current force.</p>
+
+        <p>From equation \((12-6)\), it follows that <b>inductivity is a physical quantity numerically equal to the EMF self-induction that occurs in a loop when the current force changes by one ampere \(1A\) per \(1 \,second\).</b></p>
+
+        <p>The inductivity, like capacitance, depends on the geometry of the conductor: it depends on its size and shape but does not directly depend on the current force in the conductor. However, apart from the geometry of the conductor, inductivity depends on the magnetic properties of the medium in which the conductor is placed. If the magnetic permeability \(\mu\) depends on the magnitude of the magnetic field, and, consequently, on the current force generating this field, then \(L\), too, will indirectly depend on \(I\) through \(\mu\).</p>
+
+        <p>The unit of inductance in the system of SI units is called <em>henry \((H)\).</em> <b>The inductivity of a conductor is equal to one henry, if the EMF self-induction in \(1V\) occurs in conductor when the current force changes by \(1A\) per \(1s\).</b></p>
+
+        <p><h4 class="text-center">\( 1 \,H \,= \,1\frac{Wb}{A} \,= \,\frac{1V}{1\frac{A}{s}} \,= \,1\frac{V \cdot s}{A} \)</h4></p>
 
       </div><!-- /.blog-post -->
     </div><!-- /.blog-main -->
@@ -93,9 +99,9 @@
 <p class="mb-2"><a href="../chapter12/book3-134.html" class="text-muted">134. Units of magnetic induction and magnetic flux</a></p>
 <p class="mb-2"><a href="../chapter12/book3-135.html" class="text-muted">135. Vortex electric field</a></p>
 <p class="mb-2"><a href="../chapter12/book3-136.html" class="text-muted">136. Electromotive force induction in moving conductors</a></p>
-<p class="mb-2"><a href="../chapter12/book3-137.html" class="text-muted">137. Induction currents in solid conductors. (Foucault's currents)</a></p>
-<p class="mb-2"><a href="../chapter12/book3-138.html" class="text-info">138. Self-induction</a></p>
-<p class="mb-2"><a href="../chapter12/book3-139.html" class="text-muted">139. Inductivity</a></p>
+<!-- p class="mb-2"><a href="../chapter12/book3-137.html" class="text-muted">137. Induction currents in solid conductors. (Foucault's currents)</a></p -->
+<p class="mb-2"><a href="../chapter12/book3-138.html" class="text-muted">138. Self-induction</a></p>
+<p class="mb-2"><a href="../chapter12/book3-139.html" class="text-info">139. Inductivity</a></p>
 <p class="mb-2"><a href="../chapter12/book3-140.html" class="text-muted">140. Magnetic field energy</a></p>
       </div>
     </aside><!-- /.blog-sidebar -->
