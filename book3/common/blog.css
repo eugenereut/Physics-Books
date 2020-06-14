@@ -82,10 +82,15 @@ h5.text-center, h4.text-center {color: #382819 !important;}
 
 /* Pagination */
 .blog-pagination {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
 }
 .blog-pagination > .btn {
-  border-radius: 2rem;
+  background-color: #ece4d9;
+  text-align: center;
 }
 
 /*
